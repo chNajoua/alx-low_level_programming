@@ -10,21 +10,21 @@ int main(void)
 	int character;
 
 	character = '_';
-	putchar(character);
+	_putchar(character);
 	character = 'p';
-	putchar(character);
+	_putchar(character);
 	character = 'u';
-	putchar(character);
+	_putchar(character);
 	character = 't';
-	putchar(character);
+	_putchar(character);
 	character = 'c';
-	putchar(character);
+	_putchar(character);
 	character = 'h';
-	putchar(character);
+	_putchar(character);
 	character = 'a';
-	putchar(character);
+	_putchar(character);
 	character = 'r';
-	putchar(character);
-	putchar('\n');
+	_putchar(character);
+	_putchar('\n');
 	return (0);
 }
