@@ -6,6 +6,24 @@
  */
 int main(void)
 {
-	printf("_putchar\n");
+	int character;
+
+	character = '_';
+	putchar(character);
+	character = 'p';
+	putchar(character);
+	character = 'u';
+	putchar(character);
+	character = 't';
+	putchar(character);
+	character = 'c';
+	putchar(character);
+	character = 'h';
+	putchar(character);
+	character = 'a';
+	putchar(character);
+	character = 'r';
+	putchar(character);
+	putchar('\n');
 	return (0);
 }
