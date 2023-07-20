@@ -2,7 +2,7 @@
 /**
  * print_square - function that prints a square
  * @size: is a var
- * Return:
+ * Return: 0.
  */
 void print_square(int size)
 {
@@ -14,9 +14,9 @@ void print_square(int size)
 		_putchar('\n');
 		return;
 	}
-	for (i = 0; i < size; i++)
+	for (m = 0; m < size; m++)
 	{
-		for (j = 0; j < size; j++)
+		for (n = 0; n < size; n++)
 		{
 			_putchar('#');
 		}
