@@ -1,4 +1,4 @@
-include "main.h"
+#include "main.h"
 /**
  * puts2 - function that prints character of a string
  * @str: paremeter
