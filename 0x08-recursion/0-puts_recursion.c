@@ -6,16 +6,11 @@
  */
 void _puts_recursion(char *s)
 {
-	int i;
-	int len = 0;
-
-	while (s[len] != 0)
+	if (*s)
 	{
-		len++;
+		_putchar(*s);
+		_puts_recursion(s + 1);
 	}
-	for (i = 0; i < len; i++)
-	{
-		_putchar(s[i]);
-	}
-	_putchar("\n")
+	else
+		_putchar("\n);
 }
